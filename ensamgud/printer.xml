@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Beta>False</Beta>
+    <Category>Printer</Category>
+    <Name>printer</Name>
+    <Description>
+        Printer in my basement.
+    </Description>
+    <Overview>
+        Printer in my basement.
+    </Overview>
+    <Support></Support>
+    <Registry>https://hub.docker.com/r/roqvist/printer</Registry>
+    <GitHub>https://github.com/ensamgud/docker-templates</GitHub>
+    <Repository>ensamgud/printer</Repository>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Icon>http://icons.iconarchive.com/icons/iconshock/real-vista-general/256/printer-icon.png</icon>
+</Containers>
