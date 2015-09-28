@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <Beta>False</Beta>
+    <Category>Websites</Category>
+    <Name>snapshotter</Name>
+    <Description>
+        Node server that responds with a camera snapshot.
+    </Description>
+    <Overview>
+        Description says it all.
+    </Overview>
+    <Support></Support>
+    <Registry>https://hub.docker.com/r/roqvist/snapshotter</Registry>
+    <GitHub>https://github.com/ensamgud/docker-templates</GitHub>
+    <Repository>ensamgud/snapshotter</Repository>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Icon>http://www.iconsdb.com/icons/preview/black/security-camera-xxl.png</Icon>
+</Containers>
