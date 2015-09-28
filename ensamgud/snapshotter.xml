@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
     <Beta>False</Beta>
-    <Category>Websites</Category>
+    <Category>HomeAutomation</Category>
     <Name>snapshotter</Name>
     <Description>
         Node server that responds with a camera snapshot.
+        [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+        [b]/config[/b] This is where the JSON configuration file should be placed.[br][br]
     </Description>
     <Overview>
         Description says it all.
@@ -15,5 +17,28 @@
     <Repository>ensamgud/snapshotter</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
+    <Networking>
+        <Mode>bridge</Mode>
+        <Publish>
+            <Port>
+                <HostPort>8778</HostPort>
+                <ContainerPort>8778</ContainerPort>
+            </Port>
+        </Publish>
+    </Networking>
+    <Environment>
+        <Variable>
+            <Name></Name>
+            <Value></Value>
+        </Variable>
+    </Environment>
+    <Data>
+        <Volume>
+            <HostDir></HostDir>
+            <ContainerDir>/config</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <WebUI>http://[IP]:[PORT]</WebUI>
     <Icon>http://www.iconsdb.com/icons/preview/black/security-camera-xxl.png</Icon>
 </Containers>
