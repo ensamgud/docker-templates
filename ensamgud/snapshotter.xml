@@ -16,7 +16,7 @@
     <Support></Support>
     <Registry>https://hub.docker.com/r/roqvist/snapshotter</Registry>
     <GitHub>https://github.com/ensamgud/docker-templates</GitHub>
-    <Repository>ensamgud/snapshotter</Repository>
+    <Repository>roqvist/snapshotter</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Networking>
