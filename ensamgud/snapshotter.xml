@@ -9,7 +9,9 @@
         [b]/config[/b] This is where the JSON configuration file should be placed.[br][br]
     </Description>
     <Overview>
-        Description says it all.
+        Runs a small, light weight node server that queries a security camera for a snapshot
+        and returns it. Useful for security cameras that do not have a direct access to snapshot
+        feature.
     </Overview>
     <Support></Support>
     <Registry>https://hub.docker.com/r/roqvist/snapshotter</Registry>
