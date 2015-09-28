@@ -5,8 +5,8 @@
     <Name>snapshotter</Name>
     <Description>
         Node server that responds with a camera snapshot.
-        [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-        [b]/config[/b] This is where the JSON configuration file should be placed.[br][br]
+        [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][/br]
+        [b]/config[/b] This is where the JSON configuration file is located.[br][br]
     </Description>
     <Overview>
         Runs a small, light weight node server that queries a security camera for a snapshot
